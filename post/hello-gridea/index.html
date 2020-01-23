@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Hello Gridea | Gridea</title>
-<link rel="shortcut icon" href="https://goodwillforever.github.io//favicon.ico?v=1579784880730">
+<link rel="shortcut icon" href="https://goodwillforever.github.io//favicon.ico?v=1579786689355">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://goodwillforever.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="Hello Gridea | Gridea - Atom Feed" href="https://goodwillforever.github.io//atom.xml">
@@ -28,7 +28,7 @@ Gridea 主页
       <div class="main-content">
         <div class="site-header">
   <a href="https://goodwillforever.github.io/">
-  <img class="avatar" src="https://goodwillforever.github.io//images/avatar.png?v=1579784880730" alt="">
+  <img class="avatar" src="https://goodwillforever.github.io//images/avatar.png?v=1579786689355" alt="">
   </a>
   <h1 class="site-title">
     Gridea
@@ -140,6 +140,32 @@ Gridea 主页
 
         
 
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'b9171b04daebed496239',
+    clientSecret: '9f28b9c89ab630cafe5bc663ad443833c472cf9a',
+    repo: 'goodwillforever.github.io',
+    owner: 'GoodwillForever ',
+    admin: ['GoodwillForever '],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
         
 
         <div class="site-footer">
